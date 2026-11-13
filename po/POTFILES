@@ -1,5 +1,9 @@
 data/net.codelogistics.clicker.desktop.in
 data/net.codelogistics.clicker.metainfo.xml.in
 data/net.codelogistics.clicker.gschema.xml
+src/config.py
+src/engine.py
+src/location_picker.py
 src/main.py
+src/shortcuts.py
 src/window.py

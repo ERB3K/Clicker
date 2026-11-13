@@ -28,7 +28,11 @@ configure_file(
 
 clicker_sources = [
   '__init__.py',
+  'config.py',
+  'engine.py',
+  'location_picker.py',
   'main.py',
+  'shortcuts.py',
   'window.py',
 ]
 
