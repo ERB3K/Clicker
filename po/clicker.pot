@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-01 15:48+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.py:61 src/window.py:53
+#: data/net.codelogistics.clicker.metainfo.xml.in:5
+#: data/net.codelogistics.clicker.desktop.in:3
+msgid "Clicker"
+msgstr ""
+
+#: src/main.py:62 data/net.codelogistics.clicker.metainfo.xml.in:6
+#: data/net.codelogistics.clicker.desktop.in:10
+msgid "Simulate user input repeatedly"
+msgstr ""
+
+#: src/window.py:63
+msgid "Delay"
+msgstr ""
+
+#: src/window.py:68
+msgid "5 seconds"
+msgstr ""
+
+#: src/window.py:68
+msgid "15 seconds"
+msgstr ""
+
+#: src/window.py:68
+msgid "30 seconds"
+msgstr ""
+
+#: src/window.py:68
+msgid "1 minute"
+msgstr ""
+
+#: src/window.py:74
+msgid "Duration between repeats"
+msgstr ""
+
+#. Translators: this is milliseconds
+#: src/window.py:88
+msgid "ms"
+msgstr ""
+
+#: src/window.py:95
+msgid "Start"
+msgstr ""
+
+#: src/window.py:101
+msgid "About"
+msgstr ""
+
+#: src/window.py:131
+msgid "Left"
+msgstr ""
+
+#: src/window.py:143
+msgid "Right"
+msgstr ""
+
+#: src/window.py:149
+msgid "Mouse"
+msgstr ""
+
+#: src/window.py:154
+msgid "Key:"
+msgstr ""
+
+#: src/window.py:198
+msgid "Keyboard"
+msgstr ""
+
+#: src/window.py:206
+msgid "Only use this if you know what you're doing!"
+msgstr ""
+
+#: src/window.py:212
+msgid ""
+"Enter each key press on a new line using the exact key name from the "
+"Keyboard section."
+msgstr ""
+
+#. Translators: DO NOT TRANSLATE the 'delay time' within quotes, keep it in english. It is code that the user has to enter.
+#: src/window.py:214
+msgid "Add a time delay with 'delay <time>' (time in seconds)."
+msgstr ""
+
+#: src/window.py:251
+msgid "Pattern"
+msgstr ""
+
+#: src/window.py:258
+msgid ""
+"When you press start, make sure to allow remote interaction in the prompt."
+msgstr ""
+
+#: src/window.py:272
+msgid "Duration of automation:"
+msgstr ""
+
+#: src/window.py:285
+msgid "minutes"
+msgstr ""
+
+#: src/window.py:300
+msgid "seconds"
+msgstr ""
+
+#. Translators: Do not translate the word Portal
+#: src/window.py:490
+msgid "Portal access"
+msgstr ""
+
+#: src/window.py:490
+msgid ""
+"Clicker needs permission to simulate input by simulating a connection to "
+"this computer. It does not connect to any remote host."
+msgstr ""
+
+#: src/window.py:491
+msgid "OK"
+msgstr ""
+
+#: src/window.py:493
+msgid "Don't show this message again"
+msgstr ""
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:16
+msgid ""
+"Clicker is an auto clicker - it can simulate user input like mouse clicks "
+"and key presses repeatedly at given intervals for a given duration. This is "
+"useful in some video games."
+msgstr ""
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:20
+msgid ""
+"Clicker works on both Wayland and X11 by simulating a remote desktop "
+"session. The user will need to grant this permission each time they start an "
+"automation."
+msgstr ""
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:24
+msgid ""
+"Because the Global Shortcuts portal is still not widely available there is "
+"currently no way to stop an automation after it has started, before the set "
+"duration is over. This will be fixed as distros start packaging versions of "
+"xdg-desktop-portal backends with global shortcuts implemented."
+msgstr ""
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:40
+#: data/net.codelogistics.clicker.metainfo.xml.in:44
+#: data/net.codelogistics.clicker.metainfo.xml.in:48
+msgid "Screenshot of Clicker."
+msgstr ""

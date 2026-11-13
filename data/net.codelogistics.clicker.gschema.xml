@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="clicker">
+	<schema id="net.codelogistics.clicker" path="/net/codelogistics/clicker/">
+		<key name="mode" type="s">
+			<choices>
+				<choice value="mouse"/>
+				<choice value="keyboard"/>
+				<choice value="pattern"/>
+			</choices>
+			<default>'mouse'</default>
+			<summary>Selected automation mode</summary>
+		</key>
+		<key name="delay" type="u">
+			<range min="0" max="3"/>
+			<default>0</default>
+			<summary>Index of the selected delay before automation starts</summary>
+		</key>
+		<key name="interval" type="d">
+			<default>100</default>
+			<summary>Duration between repeats in milliseconds</summary>
+		</key>
+		<key name="duration-minutes" type="d">
+			<default>1</default>
+			<summary>Minutes component of the automation duration</summary>
+		</key>
+		<key name="duration-seconds" type="d">
+			<default>1</default>
+			<summary>Seconds component of the automation duration</summary>
+		</key>
+		<key name="right-click" type="b">
+			<default>false</default>
+			<summary>Whether to click the right mouse button instead of the left</summary>
+		</key>
+		<key name="key" type="s">
+			<default>'Enter (Return)'</default>
+			<summary>Name of the key to press in keyboard mode</summary>
+		</key>
+		<key name="shift" type="b">
+			<default>false</default>
+			<summary>Whether to hold Shift in keyboard mode</summary>
+		</key>
+		<key name="ctrl" type="b">
+			<default>false</default>
+			<summary>Whether to hold Ctrl in keyboard mode</summary>
+		</key>
+		<key name="alt" type="b">
+			<default>false</default>
+			<summary>Whether to hold Alt in keyboard mode</summary>
+		</key>
+		<key name="pattern" type="s">
+			<default>'Meta (Super Key/ Start Key)\nc\nl\ni\nc\nk\ne\nr\ndelay 1'</default>
+			<summary>Key sequence used in pattern mode</summary>
+		</key>
+	</schema>
+</schemalist>

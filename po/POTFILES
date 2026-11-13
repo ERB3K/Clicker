@@ -1,0 +1,5 @@
+data/net.codelogistics.clicker.desktop.in
+data/net.codelogistics.clicker.metainfo.xml.in
+data/net.codelogistics.clicker.gschema.xml
+src/main.py
+src/window.py

@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-01 15:48+0530\n"
+"PO-Revision-Date: 2026-02-11 04:13+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: src/main.py:61 src/window.py:53
+#: data/net.codelogistics.clicker.metainfo.xml.in:5
+#: data/net.codelogistics.clicker.desktop.in:3
+msgid "Clicker"
+msgstr ""
+
+#: src/main.py:62 data/net.codelogistics.clicker.metainfo.xml.in:6
+#: data/net.codelogistics.clicker.desktop.in:10
+msgid "Simulate user input repeatedly"
+msgstr "連続したユーザーの入力をエミュレートします"
+
+#: src/window.py:63
+msgid "Delay"
+msgstr "開始までの遅延"
+
+#: src/window.py:68
+msgid "5 seconds"
+msgstr "5 秒"
+
+#: src/window.py:68
+msgid "15 seconds"
+msgstr "15 秒"
+
+#: src/window.py:68
+msgid "30 seconds"
+msgstr "30 秒"
+
+#: src/window.py:68
+msgid "1 minute"
+msgstr "1 分"
+
+#: src/window.py:74
+msgid "Duration between repeats"
+msgstr "くり返し入力する間隔"
+
+#. Translators: this is milliseconds
+#: src/window.py:88
+msgid "ms"
+msgstr "ミリ秒"
+
+#: src/window.py:95
+msgid "Start"
+msgstr "開始する"
+
+#: src/window.py:101
+msgid "About"
+msgstr "このアプリについて"
+
+#: src/window.py:131
+msgid "Left"
+msgstr "左"
+
+#: src/window.py:143
+msgid "Right"
+msgstr "右"
+
+#: src/window.py:149
+msgid "Mouse"
+msgstr "マウス"
+
+#: src/window.py:154
+msgid "Key:"
+msgstr "入力するキー:"
+
+#: src/window.py:198
+msgid "Keyboard"
+msgstr "キーボード"
+
+#: src/window.py:206
+msgid "Only use this if you know what you're doing!"
+msgstr "自分がすることの内容をよく理解してから使用してください!"
+
+#: src/window.py:212
+msgid ""
+"Enter each key press on a new line using the exact key name from the "
+"Keyboard section."
+msgstr ""
+"キーボードのページにある各キーの名前を各行に1つずつ正確に入力してください。"
+
+#. Translators: DO NOT TRANSLATE the 'delay time' within quotes, keep it in english. It is code that the user has to enter.
+#: src/window.py:214
+msgid "Add a time delay with 'delay <time>' (time in seconds)."
+msgstr "'delay <time>' (time は秒数) と入力することで遅延を追加できます。"
+
+#: src/window.py:251
+msgid "Pattern"
+msgstr "マクロ"
+
+#: src/window.py:258
+msgid ""
+"When you press start, make sure to allow remote interaction in the prompt."
+msgstr ""
+"スタートを押した後は、表示されるプロンプト上の「Allow remote interaction」の"
+"項目を必ず許可してください。"
+
+#: src/window.py:272
+msgid "Duration of automation:"
+msgstr "自動入力する時間:"
+
+#: src/window.py:285
+msgid "minutes"
+msgstr "分"
+
+#: src/window.py:300
+msgid "seconds"
+msgstr "秒"
+
+#. Translators: Do not translate the word Portal
+#: src/window.py:490
+msgid "Portal access"
+msgstr "Portal へのアクセス"
+
+#: src/window.py:490
+msgid ""
+"Clicker needs permission to simulate input by simulating a connection to "
+"this computer. It does not connect to any remote host."
+msgstr ""
+"Clicker はこのコンピューター自身に遠隔接続することで入力をエミュレートしてい"
+"ます。そのため、権限が必要になります。遠隔地のホストに接続することはありませ"
+"ん。"
+
+#: src/window.py:491
+msgid "OK"
+msgstr "OK"
+
+#: src/window.py:493
+msgid "Don't show this message again"
+msgstr "このメッセージを二度と表示しない"
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:16
+msgid ""
+"Clicker is an auto clicker - it can simulate user input like mouse clicks "
+"and key presses repeatedly at given intervals for a given duration. This is "
+"useful in some video games."
+msgstr ""
+"Clicker はオートクリッカー、つまりユーザーのキーボード操作やマウスのクリック"
+"を反復的に、決められた期間、間隔でシミュレートできます。このアプリはいくつか"
+"のゲームで役立ちます。"
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:20
+msgid ""
+"Clicker works on both Wayland and X11 by simulating a remote desktop "
+"session. The user will need to grant this permission each time they start an "
+"automation."
+msgstr ""
+"Clicker は Wayland でも X11 でも、リモートデスクトップ接続をシミュレーション"
+"することで動作します。ユーザーは、自動操作の開始時に毎回その権限を許可する必"
+"要があります。"
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:24
+msgid ""
+"Because the Global Shortcuts portal is still not widely available there is "
+"currently no way to stop an automation after it has started, before the set "
+"duration is over. This will be fixed as distros start packaging versions of "
+"xdg-desktop-portal backends with global shortcuts implemented."
+msgstr ""
+"Portal でグローバルなショートカットを追加する方法がまだ広く利用できないため、"
+"現在は自動操作を開始したら設定した時間が経過する以外で中止する方法がありませ"
+"ん。これは各ディストリビューションがグローバルショートカットが実装されたバー"
+"ジョンの xdg-desktop-portal を同梱し始めれば解決されます。"
+
+#: data/net.codelogistics.clicker.metainfo.xml.in:40
+#: data/net.codelogistics.clicker.metainfo.xml.in:44
+#: data/net.codelogistics.clicker.metainfo.xml.in:48
+msgid "Screenshot of Clicker."
+msgstr "Clicker のスクリーンショット。"

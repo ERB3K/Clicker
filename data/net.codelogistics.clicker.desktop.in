@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Clicker
+Exec=clicker
+Icon=net.codelogistics.clicker
+Terminal=false
+Type=Application
+Categories=Utility;GNOME;GTK;
+StartupNotify=true
+X-Flatpak=net.codelogistics.clicker
+Comment=Simulate user input repeatedly
