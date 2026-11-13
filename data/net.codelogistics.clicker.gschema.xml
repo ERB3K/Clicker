@@ -13,11 +13,36 @@
 		<key name="delay" type="u">
 			<range min="0" max="3"/>
 			<default>0</default>
-			<summary>Index of the selected delay before automation starts</summary>
+			<summary>Legacy index of the selected delay before automation starts</summary>
+		</key>
+		<key name="delay-seconds" type="d">
+			<default>5.0</default>
+			<summary>Delay in seconds before automation starts</summary>
+		</key>
+		<key name="speed-mode" type="s">
+			<choices>
+				<choice value="interval"/>
+				<choice value="cps"/>
+			</choices>
+			<default>'interval'</default>
+			<summary>Whether speed is specified as interval (ms) or clicks per second (CPS)</summary>
 		</key>
 		<key name="interval" type="d">
 			<default>100</default>
 			<summary>Duration between repeats in milliseconds</summary>
+		</key>
+		<key name="clicks-per-second" type="d">
+			<default>10.0</default>
+			<summary>Repeats per second when speed-mode is cps</summary>
+		</key>
+		<key name="duration-mode" type="s">
+			<choices>
+				<choice value="timed"/>
+				<choice value="count"/>
+				<choice value="infinite"/>
+			</choices>
+			<default>'timed'</default>
+			<summary>How the automation duration is determined</summary>
 		</key>
 		<key name="duration-minutes" type="d">
 			<default>1</default>
@@ -27,9 +52,50 @@
 			<default>1</default>
 			<summary>Seconds component of the automation duration</summary>
 		</key>
+		<key name="repeat-count" type="i">
+			<default>100</default>
+			<summary>Number of repeats when duration-mode is count</summary>
+		</key>
 		<key name="right-click" type="b">
 			<default>false</default>
 			<summary>Whether to click the right mouse button instead of the left</summary>
+		</key>
+		<key name="mouse-button" type="s">
+			<choices>
+				<choice value="left"/>
+				<choice value="middle"/>
+				<choice value="right"/>
+			</choices>
+			<default>'left'</default>
+			<summary>Mouse button to click in mouse mode</summary>
+		</key>
+		<key name="position-mode" type="s">
+			<choices>
+				<choice value="current"/>
+				<choice value="fixed"/>
+			</choices>
+			<default>'current'</default>
+			<summary>Whether to click at current cursor location or fixed coordinates</summary>
+		</key>
+		<key name="target-x" type="d">
+			<default>500.0</default>
+			<summary>Target X coordinate when position-mode is fixed</summary>
+		</key>
+		<key name="target-y" type="d">
+			<default>500.0</default>
+			<summary>Target Y coordinate when position-mode is fixed</summary>
+		</key>
+		<key name="start-shortcut" type="s">
+			<default>'F6'</default>
+			<summary>Shortcut trigger to start automation</summary>
+		</key>
+		<key name="stop-shortcut" type="s">
+			<default>'F5'</default>
+			<summary>Shortcut trigger to stop automation</summary>
+		</key>
+		<key name="toggle-shortcut" type="s">
+			<default>'F8'</default>
+			<summary>Shortcut trigger to toggle start/stop automation</summary>
 		</key>
 		<key name="key" type="s">
 			<default>'Enter (Return)'</default>
