@@ -1,5 +1,5 @@
 {
-    "id" : "net.codelogistics.clicker",
+    "id" : "io.github.erb3k.clicker",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",

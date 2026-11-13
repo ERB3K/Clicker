@@ -131,7 +131,7 @@ class AutomationConfig:
 class SettingsManager:
     """Wrapper around Gio.Settings for reading and binding Clicker settings."""
 
-    SCHEMA_ID = 'net.codelogistics.clicker'
+    SCHEMA_ID = 'io.github.erb3k.clicker'
 
     def __init__(self):
         self.settings = Gio.Settings.new(self.SCHEMA_ID)

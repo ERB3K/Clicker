@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 
 #: src/main.py:61 src/window.py:53
-#: data/net.codelogistics.clicker.metainfo.xml.in:5
-#: data/net.codelogistics.clicker.desktop.in:3
+#: data/io.github.erb3k.clicker.metainfo.xml.in:5
+#: data/io.github.erb3k.clicker.desktop.in:3
 msgid "Clicker"
 msgstr ""
 
-#: src/main.py:62 data/net.codelogistics.clicker.metainfo.xml.in:6
-#: data/net.codelogistics.clicker.desktop.in:10
+#: src/main.py:62 data/io.github.erb3k.clicker.metainfo.xml.in:6
+#: data/io.github.erb3k.clicker.desktop.in:10
 msgid "Simulate user input repeatedly"
 msgstr "連続したユーザーの入力をエミュレートします"
 
@@ -147,7 +147,7 @@ msgstr "OK"
 msgid "Don't show this message again"
 msgstr "このメッセージを二度と表示しない"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:16
+#: data/io.github.erb3k.clicker.metainfo.xml.in:16
 msgid ""
 "Clicker is an auto clicker - it can simulate user input like mouse clicks "
 "and key presses repeatedly at given intervals for a given duration. This is "
@@ -157,7 +157,7 @@ msgstr ""
 "を反復的に、決められた期間、間隔でシミュレートできます。このアプリはいくつか"
 "のゲームで役立ちます。"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:20
+#: data/io.github.erb3k.clicker.metainfo.xml.in:20
 msgid ""
 "Clicker works on both Wayland and X11 by simulating a remote desktop "
 "session. The user will need to grant this permission each time they start an "
@@ -167,7 +167,7 @@ msgstr ""
 "することで動作します。ユーザーは、自動操作の開始時に毎回その権限を許可する必"
 "要があります。"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:24
+#: data/io.github.erb3k.clicker.metainfo.xml.in:24
 msgid ""
 "Because the Global Shortcuts portal is still not widely available there is "
 "currently no way to stop an automation after it has started, before the set "
@@ -179,8 +179,8 @@ msgstr ""
 "ん。これは各ディストリビューションがグローバルショートカットが実装されたバー"
 "ジョンの xdg-desktop-portal を同梱し始めれば解決されます。"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:40
-#: data/net.codelogistics.clicker.metainfo.xml.in:44
-#: data/net.codelogistics.clicker.metainfo.xml.in:48
+#: data/io.github.erb3k.clicker.metainfo.xml.in:40
+#: data/io.github.erb3k.clicker.metainfo.xml.in:44
+#: data/io.github.erb3k.clicker.metainfo.xml.in:48
 msgid "Screenshot of Clicker."
 msgstr "Clicker のスクリーンショット。"

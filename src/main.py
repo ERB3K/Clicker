@@ -1,6 +1,6 @@
 # main.py
 #
-# Copyright 2024 Satvik Patwardhan
+# Copyright 2026 Erick Bueno (ERB3K)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -31,7 +31,7 @@ class ClickerApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='net.codelogistics.clicker',
+        super().__init__(application_id='io.github.erb3k.clicker',
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
         self.create_action('close', self.close_, ['<primary>w'])
@@ -60,14 +60,14 @@ class ClickerApplication(Adw.Application):
         about.set_presentation_mode(Adw.DialogPresentationMode.FLOATING)
         about.set_application_name(_("Clicker"))
         about.set_comments(_("Simulate user input repeatedly"))
-        about.set_developer_name("Satvik Patwardhan")
-        about.set_application_icon('net.codelogistics.clicker')
+        about.set_developer_name("Erick Bueno (ERB3K)")
+        about.set_application_icon('io.github.erb3k.clicker')
         about.set_version('0.2.0')
         about.set_license_type(Gtk.License.GPL_3_0)
-        about.set_developers(['Satvik Patwardhan'])
-        about.set_copyright('© 2024-2026 Satvik Patwardhan')
-        about.set_website("https://codelogistics.net/")
-        about.set_issue_url("https://gitlab.gnome.org/eyekay/clicker/-/work_items")
+        about.set_developers(['Erick Bueno (ERB3K)'])
+        about.set_copyright('© 2026 Erick Bueno (ERB3K)')
+        about.set_website("https://github.com/ERB3K/Clicker")
+        about.set_issue_url("https://github.com/ERB3K/Clicker/issues")
 
         about.present(self.get_active_window())
 

@@ -1,4 +1,4 @@
-application_id = 'net.codelogistics.clicker'
+application_id = 'io.github.erb3k.clicker'
 
 scalable_dir = 'hicolor' / 'scalable' / 'apps'
 install_data(

@@ -1,6 +1,6 @@
 desktop_file = i18n.merge_file(
-        input: 'net.codelogistics.clicker.desktop.in',
-       output: 'net.codelogistics.clicker.desktop',
+        input: 'io.github.erb3k.clicker.desktop.in',
+       output: 'io.github.erb3k.clicker.desktop',
          type: 'desktop',
        po_dir: '../po',
       install: true,
@@ -13,8 +13,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'net.codelogistics.clicker.metainfo.xml.in',
-       output: 'net.codelogistics.clicker.metainfo.xml',
+        input: 'io.github.erb3k.clicker.metainfo.xml.in',
+       output: 'io.github.erb3k.clicker.metainfo.xml',
        po_dir: '../po',
       install: true,
   install_dir: get_option('datadir') / 'metainfo'
@@ -24,7 +24,7 @@ appstreamcli = find_program('appstreamcli', required: false, disabler: true)
 test('Validate appstream file', appstreamcli,
      args: ['validate', '--no-net', '--explain', appstream_file])
 
-install_data('net.codelogistics.clicker.gschema.xml',
+install_data('io.github.erb3k.clicker.gschema.xml',
   install_dir: get_option('datadir') / 'glib-2.0' / 'schemas'
 )
 

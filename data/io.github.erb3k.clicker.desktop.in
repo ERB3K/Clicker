@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=Clicker
 Exec=clicker
-Icon=net.codelogistics.clicker
+Icon=io.github.erb3k.clicker
 Terminal=false
 Type=Application
 Categories=Utility;GNOME;GTK;
 StartupNotify=true
-X-Flatpak=net.codelogistics.clicker
+X-Flatpak=io.github.erb3k.clicker
 Comment=Simulate user input repeatedly

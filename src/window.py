@@ -1,6 +1,6 @@
 # window.py
 #
-# Copyright 2024 Satvik Patwardhan
+# Copyright 2026 Erick Bueno (ERB3K)
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -612,7 +612,7 @@ class ClickerWindow(Adw.ApplicationWindow):
         dialog.present()
 
     def show_warning_dialog(self):
-        seen_path = os.path.expanduser('~/.var/app/net.codelogistics.clicker/seen_dialog')
+        seen_path = os.path.expanduser('~/.var/app/io.github.erb3k.clicker/seen_dialog')
         if os.path.exists(seen_path):
             return
 

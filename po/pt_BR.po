@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 
 #: src/main.py:61 src/window.py:53
-#: data/net.codelogistics.clicker.metainfo.xml.in:5
-#: data/net.codelogistics.clicker.desktop.in:3
+#: data/io.github.erb3k.clicker.metainfo.xml.in:5
+#: data/io.github.erb3k.clicker.desktop.in:3
 msgid "Clicker"
 msgstr "Clicker"
 
-#: src/main.py:62 data/net.codelogistics.clicker.metainfo.xml.in:6
-#: data/net.codelogistics.clicker.desktop.in:10
+#: src/main.py:62 data/io.github.erb3k.clicker.metainfo.xml.in:6
+#: data/io.github.erb3k.clicker.desktop.in:10
 msgid "Simulate user input repeatedly"
 msgstr "Simule a entrada do usuário repetidamente"
 
@@ -146,7 +146,7 @@ msgstr "OK"
 msgid "Don't show this message again"
 msgstr "Não mostre esta mensagem novamente"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:16
+#: data/io.github.erb3k.clicker.metainfo.xml.in:16
 msgid ""
 "Clicker is an auto clicker - it can simulate user input like mouse clicks "
 "and key presses repeatedly at given intervals for a given duration. This is "
@@ -157,7 +157,7 @@ msgstr ""
 "intervalos determinados por uma determinada duração. Isso é útil em alguns "
 "videogames."
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:20
+#: data/io.github.erb3k.clicker.metainfo.xml.in:20
 msgid ""
 "Clicker works on both Wayland and X11 by simulating a remote desktop "
 "session. The user will need to grant this permission each time they start an "
@@ -167,7 +167,7 @@ msgstr ""
 "O usuário precisará conceder essa permissão cada vez que iniciar uma "
 "automação."
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:24
+#: data/io.github.erb3k.clicker.metainfo.xml.in:24
 msgid ""
 "Because the Global Shortcuts portal is still not widely available there is "
 "currently no way to stop an automation after it has started, before the set "
@@ -180,8 +180,8 @@ msgstr ""
 "versões de embalagem de back-ends do XDG-DESKTOP-portal com atalhos globais "
 "implementados."
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:40
-#: data/net.codelogistics.clicker.metainfo.xml.in:44
-#: data/net.codelogistics.clicker.metainfo.xml.in:48
+#: data/io.github.erb3k.clicker.metainfo.xml.in:40
+#: data/io.github.erb3k.clicker.metainfo.xml.in:44
+#: data/io.github.erb3k.clicker.metainfo.xml.in:48
 msgid "Screenshot of Clicker."
 msgstr "Captura de tela do Clicker."

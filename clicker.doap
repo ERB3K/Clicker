@@ -6,8 +6,8 @@
 
   <name xml:lang="en">Clicker</name>
   <shortdesc xml:lang="en">Simulate user input repeatedly</shortdesc>
-  <homepage rdf:resource="https://gitlab.gnome.org/eyekay/clicker"/>
-  <bug-database rdf:resource="https://gitlab.gnome.org/eyekay/clicker"/>
+  <homepage rdf:resource="https://github.com/ERB3K/Clicker"/>
+  <bug-database rdf:resource="https://github.com/ERB3K/Clicker/issues"/>
   <programming-language>Python</programming-language>
   <platform>GTK 4</platform>
   <platform>Libadwaita</platform>
@@ -15,12 +15,12 @@
 
   <maintainer>
     <foaf:Person>
-      <foaf:name>Satvik Patwardhan</foaf:name>
-      <foaf:mbox rdf:resource="mailto:satvik@codelogistics.net" />
+      <foaf:name>Erick Bueno (ERB3K)</foaf:name>
+      <foaf:mbox rdf:resource="mailto:erickbueno7@gmail.com" />
        <foaf:account>
         <foaf:OnlineAccount>
-          <foaf:accountServiceHomepage rdf:resource="https://gitlab.gnome.org"/>
-          <foaf:accountName>eyekay</foaf:accountName>
+          <foaf:accountServiceHomepage rdf:resource="https://github.com"/>
+          <foaf:accountName>ERB3K</foaf:accountName>
         </foaf:OnlineAccount>
       </foaf:account>
     </foaf:Person>

@@ -35,8 +35,8 @@ cd Clicker
 Clicker is packaged as a Flatpak application using `flatpak-builder` and `meson`:
 
 ```bash
-flatpak-builder --user --install --force-clean build-dir net.codelogistics.clicker.json
-flatpak run net.codelogistics.clicker
+flatpak-builder --user --install --force-clean build-dir io.github.erb3k.clicker.json
+flatpak run io.github.erb3k.clicker
 ```
 
 ### 3. Build and Run Locally with Meson (Linux)
@@ -57,4 +57,4 @@ This program is licensed under the GNU General Public License, version 3.0 or la
 
 ## Credits
 
-Originally based on [Clicker](https://codelogistics.net/) by Satvik Patwardhan.
+Inspired by the original Clicker project by Satvik Patwardhan.

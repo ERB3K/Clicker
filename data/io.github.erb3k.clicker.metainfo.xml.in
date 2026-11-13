@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.erb3k.clicker</id>
+
+  <name>Clicker</name>
+  <summary>Simulate user input repeatedly</summary>
+
+  <developer id="io.github.erb3k">
+    <name translate="no">Erick Bueno (ERB3K)</name>
+  </developer>
+
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <description>
+    <p>
+      Clicker is an auto clicker - it can simulate user input like mouse clicks and key presses repeatedly at given intervals for a given duration.
+      This is useful in some video games.
+    </p>
+    <p>
+      Clicker works on both Wayland and X11 by simulating a remote desktop session. The user will need to grant this permission
+      each time they start an automation.
+    </p>
+    <p>
+      The automation can be paused at any point by pressing the configured stop or toggle hotkey, if the user's desktop environment provides support for the Global Shortcuts
+      portal and the user grants permission for this hotkey to be registered.
+    </p>
+  </description>
+
+  <content_rating type="oars-1.0" />
+  <url type="homepage">https://github.com/ERB3K/Clicker</url>
+  <url type="vcs-browser">https://github.com/ERB3K/Clicker</url>
+  <url type="bugtracker">https://github.com/ERB3K/Clicker/issues</url>
+
+  <launchable type="desktop-id">io.github.erb3k.clicker.desktop</launchable>
+
+  <releases>
+    <release version="0.2.0" date="2026-11-13">
+      <description translate="no">
+        <p>Modularized architecture with configurable start/stop/toggle shortcuts, CPS speed mode, repeat count &amp; infinite duration modes, middle-click support, and fullscreen crosshair location picker.</p>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="clicker">
-	<schema id="net.codelogistics.clicker" path="/net/codelogistics/clicker/">
+	<schema id="io.github.erb3k.clicker" path="/io/github/erb3k/clicker/">
 		<key name="mode" type="s">
 			<choices>
 				<choice value="mouse"/>

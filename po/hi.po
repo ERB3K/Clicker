@@ -2,15 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Satvik Patwardhan <eyekay@codelogistics.net>, 2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1.8\n"
+"Project-Id-Version: 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-01 15:48+0530\n"
 "PO-Revision-Date: 2024-08-02 14:04+0530\n"
-"Last-Translator: Satvik Patwardhan <eyekay@codelogistics.net>\n"
+"Last-Translator: \n"
 "Language-Team: English\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -20,13 +19,13 @@ msgstr ""
 "X-Generator: Gtranslator 46.1\n"
 
 #: src/main.py:61 src/window.py:53
-#: data/net.codelogistics.clicker.metainfo.xml.in:5
-#: data/net.codelogistics.clicker.desktop.in:3
+#: data/io.github.erb3k.clicker.metainfo.xml.in:5
+#: data/io.github.erb3k.clicker.desktop.in:3
 msgid "Clicker"
 msgstr "क्लिकर"
 
-#: src/main.py:62 data/net.codelogistics.clicker.metainfo.xml.in:6
-#: data/net.codelogistics.clicker.desktop.in:10
+#: src/main.py:62 data/io.github.erb3k.clicker.metainfo.xml.in:6
+#: data/io.github.erb3k.clicker.desktop.in:10
 msgid "Simulate user input repeatedly"
 msgstr "इनपुट का अनुकरण दोहरायें"
 
@@ -145,7 +144,7 @@ msgstr "ठीक है"
 msgid "Don't show this message again"
 msgstr "दोबारा यह संदेश न दिखाएं"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:16
+#: data/io.github.erb3k.clicker.metainfo.xml.in:16
 msgid ""
 "Clicker is an auto clicker - it can simulate user input like mouse clicks "
 "and key presses repeatedly at given intervals for a given duration. This is "
@@ -154,7 +153,7 @@ msgstr ""
 "क्लिकर एक ऑटो क्लिकर है - वह क्लिक एवं की के दबाव के जैसे इनपुट का अनुकरण प्रदत्त देरी पर "
 "प्रदत्त अवधि के लिये कर सकता है। यह कुछ विडियो गेम में उपयोग में आता है।"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:20
+#: data/io.github.erb3k.clicker.metainfo.xml.in:20
 msgid ""
 "Clicker works on both Wayland and X11 by simulating a remote desktop "
 "session. The user will need to grant this permission each time they start an "
@@ -163,7 +162,7 @@ msgstr ""
 "क्लिकर वेलांड एवं X11 पर रेमोट डेस्क्टाप सेशन का अनुकरण करके काम करता है। उपयोगकर्ता को "
 "इसकी अनुमति हर स्वचालन प्रणाली के शुरू होते समय देनी होगी।"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:24
+#: data/io.github.erb3k.clicker.metainfo.xml.in:24
 msgid ""
 "Because the Global Shortcuts portal is still not widely available there is "
 "currently no way to stop an automation after it has started, before the set "
@@ -174,8 +173,8 @@ msgstr ""
 "अवधि से पहले रोकना संभव नहीं है। डिस्ट्रो के द्वारा xdg-desktop-portal के बैकएंड के नये "
 "ग्लोबल शार्ट्कट सहित संस्करणों की पैकेजिंग शुरू होने के बाद इस विषय को सुधारा जायेगा।"
 
-#: data/net.codelogistics.clicker.metainfo.xml.in:40
-#: data/net.codelogistics.clicker.metainfo.xml.in:44
-#: data/net.codelogistics.clicker.metainfo.xml.in:48
+#: data/io.github.erb3k.clicker.metainfo.xml.in:40
+#: data/io.github.erb3k.clicker.metainfo.xml.in:44
+#: data/io.github.erb3k.clicker.metainfo.xml.in:48
 msgid "Screenshot of Clicker."
 msgstr "क्लिकर का स्क्रीनशाट।"
